@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 5rem;
+  background-color: #0c0d11;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50rem;
+}
+
+.quote{
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.author{
+    font-size: 1.4rem;
+    align-self: flex-end;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    background-color: teal;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
