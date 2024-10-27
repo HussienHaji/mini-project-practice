@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #010408;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 1.6rem;
+}
+
+.watch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 800;
+  gap: 1rem;
+}
+
+.btns-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background-color: #ccc;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reset {
+  color: #000;
+}
+
+.start {
+  background-color: teal;
+}
+
+.stop {
+  background-color: rgb(206, 52, 25);
+}
